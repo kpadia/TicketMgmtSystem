@@ -1,0 +1,7 @@
+---
+applications:
+- name: TicketManagementSystem
+  memory: 1G
+  instances: 1
+  path: /home/pipeline/20701310-bc8f-4398-9078-2e5fffcacd94/target/TicketManagementSystem-0.0.1-SNAPSHOT.war
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
