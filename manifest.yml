@@ -4,9 +4,8 @@ applications:
   memory: 1G
   instances: 1
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
-  path: /home/pipeline/target/TicketManagementSystem-0.0.1-SNAPSHOT.war
-  no-route: true
-  
+  path: /home/pipeline/474fb4a0-3d0a-4fb5-be8b-36207ec587dc/target/TicketManagementSystem-0.0.1-SNAPSHOT.war
+
 
     
   
