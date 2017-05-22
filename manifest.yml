@@ -1,14 +1,12 @@
 ---
 applications:
-- name: TicketManagementSystem
+- name: SampleTicketApp
   memory: 1G
   instances: 1
-  path: /home/pipeline/20701310-bc8f-4398-9078-2e5fffcacd94/target/TicketManagementSystem-0.0.1-SNAPSHOT.war
-  buildpack: https://github.com/cloudfoundry/java-buildpack.git
-  
-
-
-    
-  
-  
-  
+  path: target/TicketManagementSystem-0.0.1-SNAPSHOT.war
+  domain: mybluemix.net
+  host: SampleTicketApp
+  disk_quota: 1024M
+  services:
+  - -cloudantNoSQLDB
+ 
