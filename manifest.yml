@@ -8,5 +8,5 @@ applications:
   host: SampleTicketApp
   disk_quota: 1024M
   services:
-  - -cloudantNoSQLDB
+  - SampleTicketApp-cloudantNoSQLDB
  
